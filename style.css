@@ -245,6 +245,37 @@ header .header-cases {
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-links {
+    overflow: hidden;
+  }
+
+  .index-links div {
+    margin: 20px 10px 0px;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+
+  .index-box-square {
+    width: calc(25% - 20px) !important;
+  }
+
+  .index-box-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+
+  .index-links div h3 {
+    line-height: 230px;
+  }
+}
+
 /* FOOTER */
 
 footer {
@@ -285,4 +316,22 @@ footer ul li a {
 .footer-sm img{
   width: 100%;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-links-cases {
+    display: block;
+  }
+
+  footer ul {
+    padding-right: 20px;
+  }
+
+  footer ul li p {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
 }
